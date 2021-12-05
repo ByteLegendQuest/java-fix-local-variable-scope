@@ -22,7 +22,7 @@
 
   # Fix a Scope Issue
 
-  The `relation` method in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-local-variable-scope/blob/main/src/main/java/com/bytelegend/Challenge.java)中的`relation` doesn't compile, please fix it.
+  The `relation` method in [src/main/java/com/bytelegend/Challenge.java](https://github.com/ByteLegendQuest/java-fix-local-variable-scope/blob/main/src/main/java/com/bytelegend/Challenge.java) doesn't compile, please fix it.
   The intention is to return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise.
 
   - You can use either way to accomplish the challenge (you'd better test it on your local computer):
