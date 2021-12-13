@@ -32,7 +32,6 @@ Any changes to files other than the following files will be rejected:**
 - 机器人将会检查你的回答，告诉你是否通过了挑战。
 - 回到[字节传说](https://bytelegend.com)，然后继续你的英雄旅程。
 
-
 **注意：我们只允许您修改以下文件，任何对其他文件的修改都会被拒绝：**
 
 - `src/main/java/com/bytelegend/Challenge.java`
