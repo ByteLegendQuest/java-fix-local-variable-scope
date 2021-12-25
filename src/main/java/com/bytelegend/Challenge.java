@@ -14,7 +14,7 @@ public class Challenge {
         if (a > b) {
             sign = ">";
         } else if (a < b) {
-            ign = "<";
+            sign = "<";
         } else {
             sign = "=";
         }
