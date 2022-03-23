@@ -18,6 +18,8 @@ public class Challenge {
             String sign = "=";
         }
 
-        return "" + a + sign + b;
+        String ans = a + sign + b;
+
+        return ans;
     }
 }
