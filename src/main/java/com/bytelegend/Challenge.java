@@ -23,6 +23,6 @@ public class Challenge {
 
        
 
-        return a + sign + ;
+        return a + sign + b;
     }
 }
