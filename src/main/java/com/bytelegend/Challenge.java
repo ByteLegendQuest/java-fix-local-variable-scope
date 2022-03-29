@@ -7,14 +7,15 @@ public class Challenge {
         System.out.println(relation(2, 2));
     }
 
+    // Fix the compilation error
+    // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
     public static String relation(int a, int b) {
-        String sign = new String();
-    	if (a > b) {
-            sign = ">";
+        if (a > b) {
+            String sign = ">";
         } else if (a < b) {
-            sign = "<";
+            String sign = "<";
         } else {
-            sign = "=";
+            String sign = "=";
         }
 
         return "" + a + sign + b;
