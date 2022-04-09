@@ -11,7 +11,7 @@ public class Challenge {
 
     // Fix the compilation error
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
-    public static String  relation(int a, int b) {
+    public static String relation(int a, int b) {
         if (a > b) {
             sign = ">";
         } else if (a < b) {
@@ -19,6 +19,6 @@ public class Challenge {
         } else {
             sign = "=";
         }
-        return ""+ a + sign + b;
+        return a + sign + b;
     }
 }
