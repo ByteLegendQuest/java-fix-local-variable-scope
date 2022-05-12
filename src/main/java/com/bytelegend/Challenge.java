@@ -6,16 +6,16 @@ public class Challenge {
         System.out.println(relation(2, 1));
         System.out.println(relation(2, 2));
     }
-   private  static String sign;
+
     // Fix the compilation error
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
     public static String relation(int a, int b) {
         if (a > b) {
-            sign = ">";
+            String sign = ">";
         } else if (a < b) {
-            sign = "<";
+            String sign = "<";
         } else {
-            sign = "=";
+            String sign = "=";
         }
 
         return "" + a + sign + b;
