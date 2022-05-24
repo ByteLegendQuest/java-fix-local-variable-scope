@@ -22,3 +22,7 @@ public class Challenge {
         }
     }
 }
+public static void main (String[]args){
+    Challenge a=new ("aaa");
+    a.main();
+}
