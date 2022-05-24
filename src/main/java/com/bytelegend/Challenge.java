@@ -22,6 +22,6 @@ public class Challenge {
         }
     }
 }
-public static void main (String[]args){
+public static void helo (String[]args){
     Challenge a=new  main("nj");
 }
