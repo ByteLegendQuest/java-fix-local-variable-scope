@@ -12,11 +12,11 @@ public class Challenge {
     public static String relation(int a, int b) {
         String sign = "";
         if (a > b) {
-            sign = " > ";
+            sign = ">";
         } else if (a < b) {
-            sign = " < ";
+            sign = "<";
         } else {
-            sign = " = ";
+            sign = "=";
         }
 
         return a + sign + b;
