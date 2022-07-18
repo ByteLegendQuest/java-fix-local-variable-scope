@@ -5,7 +5,7 @@ public class Challenge {
         System.out.println(relation(1, 2));
         System.out.println(relation(2, 1));
         System.out.println(relation(2, 2));
-    }
+    
 
     // Fix the compilation error
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
@@ -20,4 +20,5 @@ public class Challenge {
 
         return "" + a + sign + b;
     }
+ }
 }
