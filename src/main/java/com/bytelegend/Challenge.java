@@ -12,12 +12,13 @@ public class Challenge {
     public static String relation(int a, int b) {
         if (a > b) {
             String sign = ">";
+            return "" + a + sign + b;
         } else if (a < b) {
             String sign = "<";
+            return "" + a + sign + b;
         } else {
             String sign = "=";
+            return "" + a + sign + b;
         }
-
-        return "" + a + sign + b;
     }
 }
