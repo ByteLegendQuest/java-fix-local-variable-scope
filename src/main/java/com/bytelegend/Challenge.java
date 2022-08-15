@@ -18,6 +18,7 @@ public class Challenge {
             String sign = "=";
         }
 
-        return "" + a + sign + b;
+        return String.format("%d%s%d", a, sign, b);
+        
     }
 }
