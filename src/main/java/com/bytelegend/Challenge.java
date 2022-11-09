@@ -11,13 +11,12 @@ public class Challenge {
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
     public static String relation(int a, int b) {
         if (a > b) {
-            String sign = ">";
+            return "" + a + ">" + b;
         } else if (a < b) {
-            String sign = "<";
+            return "" + a + "<" + b;
         } else {
-            String sign = "=";
+            return "" + a + "=" + b;
         }
 
-        return "" + a + sign + b;
     }
 }
