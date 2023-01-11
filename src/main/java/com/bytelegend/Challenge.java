@@ -1,3 +1,5 @@
+package com.bytelegend;
+
 public class Challenge {
     public static void main(String[] args) {
         System.out.println(relation(1, 2));
@@ -10,13 +12,14 @@ public class Challenge {
     public static String relation(int a, int b) {
         String sign;
         if (a > b) {
-             sign = ">";
+            sign = ">";
         } else if (a < b) {
-             sign = "<";
+            sign = "<";
         } else {
-             sign = "=";
+            sign = "=";
         }
 
-       return "" + a + sign + b;
+        return "" + a + sign + b;
     }
 }
+
