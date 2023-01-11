@@ -17,6 +17,6 @@ public class Challenge {
              sign = "=";
         }
 
-        return  a + sign + b;
+       return "" + a + sign + b;
     }
 }
