@@ -10,14 +10,14 @@ public class Challenge {
     // Fix the compilation error
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
     public static String relation(int a, int b) {
-        if (a > b) {
-            String sign = ">";
-        } else if (a < b) {
-            String sign = "<";
-        } else {
-            String sign = "=";
-        }
+        String sign = "=";
 
+        if (a > b) {
+            sign = ">";
+        } else if (a < b) {
+            sign = "<";
+        } 
+        
         return "" + a + sign + b;
     }
 }
