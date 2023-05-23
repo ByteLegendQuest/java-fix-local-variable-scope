@@ -19,6 +19,6 @@ public class Challenge{
         } else {
             sign = "=";
         }
-        return a + sign + b;
+        return ""+a+sign+b;
     }
 }
