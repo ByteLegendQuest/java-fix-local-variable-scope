@@ -1,6 +1,7 @@
 package com.bytelegend;
 
 public class Challenge {
+
     public static void main(String[] args) {
         System.out.println(relation(1, 2));
         System.out.println(relation(2, 1));
@@ -10,12 +11,13 @@ public class Challenge {
     // Fix the compilation error
     // Return "a<b" if a < b, "a>b" if a > b, "a=b" otherwise
     public static String relation(int a, int b) {
+        String sign="";
         if (a > b) {
-            String sign = ">";
+            sign = ">";
         } else if (a < b) {
-            String sign = "<";
-        } else {
-            String sign = "=";
+            sign = "<";
+        } else if (a == b) {
+            sign = "=";
         }
 
         return "" + a + sign + b;
