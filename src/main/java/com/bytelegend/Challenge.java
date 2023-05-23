@@ -1,3 +1,4 @@
+package com.bytelegend.Challenge;
 public class Challenge{
     public static final String sign;
     public static void main(String[] args) {
