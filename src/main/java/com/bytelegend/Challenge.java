@@ -1,4 +1,4 @@
-public class Challenge1{
+public class Challenge{
     public static String sign;
     public static void main(String[] args) {
         System.out.println(relation(1, 2));
